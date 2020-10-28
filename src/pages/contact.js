@@ -1,11 +1,11 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 
-export default function Home() {
+export default function contact() {
   return (
     <Layout>
-      <p>Hello everyone else!</p>
+      <h1>Contact Us </h1> <Link to="/">Home</Link>
     </Layout>
   )
 }
